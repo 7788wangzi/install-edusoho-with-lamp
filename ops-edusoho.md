@@ -26,7 +26,11 @@ post_max_size = 1024M
 memory_limit = 1024M
 upload_max_filesize = 1024M
 ```
-
+修改配置后，重启PHP和Apache
+```
+sudo service php7.0-fpm restart
+sudo service apache2 restart
+```
 
 **课程文件上传的目录**
 ```
