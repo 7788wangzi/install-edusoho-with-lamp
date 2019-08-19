@@ -37,3 +37,7 @@ sudo service apache2 restart
 /var/www/html/edusoho/app/data/udisk/course-activity/39/
 ```
 *39是课程的ID*
+
+## 常见问题
+[http://www.qiqiuyu.com/faq/search?categoryId=72](http://www.qiqiuyu.com/faq/search?categoryId=72)
+
