@@ -18,3 +18,18 @@
 路径：【管理后台】-【用户】-【用户管理】-【操作】-【发送邮件】；  
 找到自己的账号发送邮件测试，如果系统提示发送成功，邮箱配置就是正确的。  
 若提示发送失败，请根据以上格式检查，SMTP密码是否填写正确，以及配置的信息中，是不是包含空格。
+
+## 配置文件上传允许大小
+两个文件`/etc/php/7.0/fpm/php.ini`和`/etc/php/7.0/apache2/php.ini`中都要配置。
+```
+post_max_size = 1024M
+memory_limit = 1024M
+upload_max_filesize = 1024M
+```
+
+
+**课程文件上传的目录**
+```
+/var/www/html/edusoho/app/data/udisk/course-activity/39/
+```
+*39是课程的ID*
